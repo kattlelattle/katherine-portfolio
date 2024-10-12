@@ -1,43 +1,13 @@
-:root {
-    --tooltip-text-color: white;
-    --tooltip-background-color: black;
-    --tooltip-margin: 30px;
-    --tooltip-arrow-size: 6px;
-}
-
-/* Additional color and style variables */
-:root, :host, .spxThemeOverride, .max-width-container {
-    --color_0: 255, 255, 255;
-    --color_1: 255, 255, 255;
-    --color_2: 0, 0, 0;
-    /* Add more colors as needed */
-}
-
-/* General Styles */
-body, html {
-    height: 100%;
-    background-color: var(--color_2); /* Adjust to your desired background */
+body {
     margin: 0;
     padding: 0;
+    font-family: 'Palatino Linotype', serif; /* Use the specified font */
+    background-color: #fff; /* Optional background color */
 }
 
-/* Header styles */
-header {
-    background-color: var(--color_1); /* Header background color */
-    padding: 20px;
-    text-align: center;
-}
-
-/* Section styles */
-section {
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid var(--color_3); /* Adjust border color */
-}
-
-/* Footer styles */
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: var(--color_1);
+.custom-heading {
+    font-size: 78px; /* Set the font size */
+    color: #F6D9E9; /* Set the text color */
+    text-align: center; /* Center the heading */
+    margin-top: 20px; /* Add some space at the top */
 }
