@@ -40,7 +40,7 @@ body {
     border: none; 
     border-radius: 5px; 
     margin-top: 15px; 
-    margin: 0 auto; /* Center the button */
+    margin: 100px; /* Center the button */
     transition: background-color 0.3s; 
 }
 
