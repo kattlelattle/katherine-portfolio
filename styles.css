@@ -1,13 +1,29 @@
 body {
     margin: 0;
-    padding: 0;
-    font-family: 'Palatino Linotype', serif; /* Use the specified font */
-    background-color: #fff; /* Optional background color */
+    font-family: 'Palatino Linotype', serif; /* Using the specified font */
 }
 
-.custom-heading {
-    font-size: 78px; /* Set the font size */
-    color: #F6D9E9; /* Set the text color */
-    text-align: center; /* Center the heading */
-    margin-top: 20px; /* Add some space at the top */
+.banner {
+    background-image: url('Polish_20240814_154043407.jpg'); /* Add the path to your banner image */
+    background-size: cover; /* Ensures the image covers the entire header */
+    background-position: center; /* Centers the image */
+    height: 400px; /* Adjust the height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically centers the text */
+    align-items: flex-start; /* Aligns text to the left */
+    padding: 20px; /* Adds some space around the text */
+    color: white; /* Change text color if needed */
+}
+
+.title {
+    font-size: 78px; /* Size for "SERVEHER" */
+    color: #F6D9E9; /* Light pink color */
+    margin: 0; /* Removes default margin */
+}
+
+.subtitle {
+    font-size: 15px; /* Size for the subtitle */
+    color: #573146; /* Darker pink color */
+    margin-top: 10px; /* Adds space between title and subtitle */
 }
