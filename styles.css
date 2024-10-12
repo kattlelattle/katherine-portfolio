@@ -36,13 +36,14 @@ body {
     background-color: #F6D9E9; /* Pink color */
     color: #573146; /* Darker text color for contrast */
     font-size: 16px; /* Font size for the button */
-    padding: 10px 20px; /* Padding around the text */
+    padding: 15px 30px; /* Padding around the text */
     text-decoration: none; /* Removes underline */
+    border: none; /* Removes border */
     border-radius: 5px; /* Rounded corners */
     margin-top: 15px; /* Space above the button */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
 
 .donate-button:hover {
     background-color: #D4B5C1; /* Darker pink on hover */
 }
-
