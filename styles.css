@@ -11,7 +11,7 @@ body {
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
-    align-items: center; /* Change to center the content horizontally */
+    align-items: flex-start; /* Aligns everything to the left */
     padding: 20px; 
 }
 
@@ -23,26 +23,7 @@ body {
 }
 
 .subtitle {
-    font-size: 20px; /* Slightly larger font size */
+    font-size: 18px; 
     color: #573146; 
     margin-top: 10px; 
-    padding-left: 25px; /* Adjusted to move the subtitle to the right */
-    text-align: center; /* Center the subtitle text */
-}
-
-.donate-button {
-    display: inline-block; 
-    background-color: #F6D9E9; 
-    color: #573146; 
-    font-size: 16px; 
-    padding: 15px 30px; 
-    text-decoration: none; 
-    border: none; 
-    border-radius: 5px; 
-    margin-top: 15px;
-    transition: background-color 0.3s; 
-}
-
-.donate-button:hover {
-    background-color: #D4B5C1; 
-}
+   
