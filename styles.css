@@ -17,7 +17,7 @@ body {
 
 .title {
     font-size: 78px; /* Size for "SERVEHER" */
-    color: #D19FBB; 
+    color: #D19FBB; /* Updated darker shade for title */
     margin: 0; /* Removes default margin */
     padding-left: 25px; /* Moves title 25 pixels to the right */
 }
@@ -28,8 +28,6 @@ body {
     margin-top: 10px; /* Adds space between title and subtitle */
     padding-left: 25px; /* Moves subtitle 25 pixels to the right */
 } 
-
-/* Add this to your existing CSS file */
 
 .donate-button {
     display: inline-block; /* Makes the anchor act like a button */
