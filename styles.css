@@ -39,7 +39,7 @@ body {
     border: none; /* Removes border */
     border-radius: 5px; /* Rounded corners */
     margin-top: 15px; /* Space above the button */
-    margin-left: 500px;
+    margin-left: auto;
     transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
 
