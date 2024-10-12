@@ -11,7 +11,7 @@ body {
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
-    align-items: flex-start; /* Aligns everything to the left */
+    align-items: flex-start; /* Align text to the left */
     padding: 20px; 
 }
 
@@ -26,4 +26,22 @@ body {
     font-size: 18px; 
     color: #573146; 
     margin-top: 10px; 
-   
+    padding-left: 30px; 
+}
+
+.donate-button {
+    display: inline-block; 
+    background-color: #F6D9E9; 
+    color: #573146; 
+    font-size: 16px; 
+    padding: 15px 30px; 
+    text-decoration: none; 
+    border: none; 
+    border-radius: 5px; 
+    margin: 15px auto; /* Centers the button */
+    transition: background-color 0.3s; 
+}
+
+.donate-button:hover {
+    background-color: #D4B5C1; 
+}
