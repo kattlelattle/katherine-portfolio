@@ -1,17 +1,43 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+:root {
+    --tooltip-text-color: white;
+    --tooltip-background-color: black;
+    --tooltip-margin: 30px;
+    --tooltip-arrow-size: 6px;
 }
 
+/* Additional color and style variables */
+:root, :host, .spxThemeOverride, .max-width-container {
+    --color_0: 255, 255, 255;
+    --color_1: 255, 255, 255;
+    --color_2: 0, 0, 0;
+    /* Add more colors as needed */
+}
+
+/* General Styles */
+body, html {
+    height: 100%;
+    background-color: var(--color_2); /* Adjust to your desired background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
 header {
-    background: #35424a;
-    color: #ffffff;
-    padding: 20px 0;
+    background-color: var(--color_1); /* Header background color */
+    padding: 20px;
     text-align: center;
 }
 
-h1, h2 {
-    margin: 0;
+/* Section styles */
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid var(--color_3); /* Adjust border color */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--color_1);
 }
