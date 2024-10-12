@@ -28,3 +28,21 @@ body {
     margin-top: 10px; /* Adds space between title and subtitle */
     padding-left: 25px; /* Moves subtitle 25 pixels to the right */
 } 
+
+/* Add this to your existing CSS file */
+
+.donate-button {
+    display: inline-block; /* Makes the anchor act like a button */
+    background-color: #F6D9E9; /* Pink color */
+    color: #573146; /* Darker text color for contrast */
+    font-size: 16px; /* Font size for the button */
+    padding: 10px 20px; /* Padding around the text */
+    text-decoration: none; /* Removes underline */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 15px; /* Space above the button */
+}
+
+.donate-button:hover {
+    background-color: #D4B5C1; /* Darker pink on hover */
+}
+
