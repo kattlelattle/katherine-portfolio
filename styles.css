@@ -11,7 +11,7 @@ body {
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
-    align-items: flex-start; 
+    align-items: center; /* Change to center the content horizontally */
     padding: 20px; 
 }
 
@@ -23,10 +23,11 @@ body {
 }
 
 .subtitle {
-    font-size: 18px; 
+    font-size: 20px; /* Slightly larger font size */
     color: #573146; 
     margin-top: 10px; 
-    padding-left: 30px; 
+    padding-left: 25px; /* Adjusted to move the subtitle to the right */
+    text-align: center; /* Center the subtitle text */
 }
 
 .donate-button {
@@ -39,7 +40,7 @@ body {
     border: none; 
     border-radius: 5px; 
     margin-top: 15px; 
-    margin-left: auto; 
+    margin: 0 auto; /* Center the button */
     transition: background-color 0.3s; 
 }
 
