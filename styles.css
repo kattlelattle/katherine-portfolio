@@ -3,6 +3,11 @@ body {
     font-family: 'Palatino Linotype', serif;
 }
 
+.header {
+    background-color: white; /* White background for the header */
+    padding: 10px; /* Space inside the header */
+}
+
 .banner {
     background-image: url('Polish_20240814_154043407.jpg'); 
     background-size: cover; 
@@ -11,7 +16,7 @@ body {
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
-    align-items: flex-start; /* Align text to the left */
+    align-items: flex-start; 
     padding: 20px; 
 }
 
@@ -20,13 +25,36 @@ body {
     color: #D19FBB; 
     margin: 0; 
     padding-left: 25px; 
+    font-weight: normal; /* Make the title not bold */
 }
 
 .subtitle {
     font-size: 18px; 
     color: #573146; 
     margin-top: 10px; 
-    padding-left: 30px; 
+    padding-left: 25px; 
+    font-weight: normal; /* Make the subtitle not bold */
+}
+
+.nav-links {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.nav-links li {
+    display: inline; /* Display links in a single line */
+    margin-right: 15px; /* Space between links */
+}
+
+.nav-links a {
+    text-decoration: none; /* Remove underline */
+    color: #573146; /* Dark pink color */
+    transition: color 0.3s; /* Smooth transition on hover */
+}
+
+.nav-links a:hover {
+    color: pink; /* Change color on hover */
 }
 
 .donate-button {
@@ -38,10 +66,39 @@ body {
     text-decoration: none; 
     border: none; 
     border-radius: 5px; 
-    margin: 15px auto; /* Centers the button */
+    margin-top: 15px; 
+    margin-left: 25px; /* Adjust to move the button more to the left */
     transition: background-color 0.3s; 
 }
 
 .donate-button:hover {
     background-color: #D4B5C1; 
+}
+
+.divider {
+    width: 100%; /* Full width for the line */
+    height: 2px; /* Thickness of the line */
+    background-color: black; /* Color of the line */
+    margin: 20px 0; /* Space around the line */
+}
+
+.founders-image {
+    display: block; /* Center the image */
+    margin: 0 auto; /* Center the image */
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Set a maximum width */
+}
+
+.gray-box {
+    background-color: #D9D9D9; /* Gray background for the box */
+    display: flex; /* Use flexbox for columns */
+    justify-content: space-between; /* Space between columns */
+    padding: 20px; /* Padding inside the gray box */
+    margin: 20px 0; /* Margin around the gray box */
+}
+
+.column {
+    flex: 1; /* Allow columns to grow equally */
+    padding: 10px; /* Padding within columns */
+    margin: 0 10px; /* Margin between columns */
 }
