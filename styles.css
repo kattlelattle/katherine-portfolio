@@ -13,12 +13,11 @@ body {
     justify-content: center; /* Vertically centers the text */
     align-items: flex-start; /* Aligns text to the left */
     padding: 20px; /* Adds some space around the text */
-    color: white; /* Change text color if needed */
 }
 
 .title {
     font-size: 78px; /* Size for "SERVEHER" */
-    color: #B36A8C; /* Darker shade for title (change to your desired darker color) */
+    color: #D19FBB; 
     margin: 0; /* Removes default margin */
     padding-left: 25px; /* Moves title 25 pixels to the right */
 }
